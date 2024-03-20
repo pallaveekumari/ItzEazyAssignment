@@ -29,13 +29,22 @@ body {
     font-weight: bold;
 }
 
-.text-input, .select-box {
-    width: 100%;
+.text-input {
+    width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: rgb(192, 187, 187);
+    font-weight: bold;
 }
-
+.select-box{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(192, 187, 187);
+    font-weight: bold;
+}
 .radio-options {
     display: flex;
     align-items: center;
