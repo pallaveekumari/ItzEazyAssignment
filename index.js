@@ -14,7 +14,8 @@ $(document).ready(function() {
             filledInputs++;
         });
         updateProgressBar();
-        // Check if all questions on the first screen are filled
+        
+        // Check if all questions on the current screen are filled
         if (filledInputs === totalInputs && currentScreen === 1) {
             // Transition to the second screen
             $('#screen1').hide();
