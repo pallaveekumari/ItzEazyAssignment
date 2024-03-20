@@ -1,0 +1,24 @@
+.progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: green;
+    margin-top: 10px;
+}
+
+/* Custom select box design */
+/* .select-box {
+    Your custom design 
+} */
+.radio-labels {
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+    color: #888; /* Placeholder text color */
+}
+
+.radio-input {
+    margin-right: 5px; /* Adjust as needed */
+}
+
+.radio-input:checked + .radio-labels {
+    color: black; /* Adjust to change color when selected */
+}

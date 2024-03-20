@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="questions" id="screen1">
+        <div class="question">
+            <label for="input1">Name</label>
+            <input type="text" id="input1" class="text-input" placeholder="Enter Your Name">
+        </div>
+        <div class="question">
+            <label>Nature of Driving License</label>
+            <div>
+                <input type="radio" id="privateRadio1" name="radio1" class="radio-input">
+                <label for="privateRadio1">Private</label>
+            </div>
+            <div>
+                <input type="radio" id="commercialRadio1" name="radio1" class="radio-input">
+                <label for="commercialRadio1">Commercial</label>
+            </div>
+        </div>
+        <div class="question">
+            <label for="select1">Issued Year of licence</label>
+            <select id="select1" class="select-box">
+                <option value="">Issued Year of licence</option>
+                <option value="2016">2016</option>
+                <option value="2020">2020</option>
+                <option value="2024">2024</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="questions" id="screen2" style="display: none;">
+        <div class="question">
+            <label for="input2">Place Where Driving License was issued</label>
+            <input type="text" id="input2" class="text-input" placeholder="Enter Place Name">
+        </div>
+        <div class="question">
+            <label>Type of Previous Driving License</label>
+            <div>
+                <input type="radio" id="privateRadio2" name="radio2" class="radio-input">
+                <label for="privateRadio2">Paper Driving License</label>
+            </div>
+            <div>
+                <input type="radio" id="commercialRadio2" name="radio2" class="radio-input">
+                <label for="commercialRadio2">Smart Driving License</label>
+            </div>
+        </div>
+        <div class="question">
+            <label for="select2">Type of Previous Driving License</label>
+            <select id="select2" class="select-box">
+                <option value="">Choose Expired Year of License</option>
+                <option value="2024">2024</option>
+                <option value="2026">2026</option>
+                <option value="2028">2028</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="progress-bar"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
