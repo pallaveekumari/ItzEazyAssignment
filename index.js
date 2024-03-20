@@ -5,12 +5,12 @@ $(document).ready(function() {
 
     $('.text-input, .select-box, .radio-input').on('input change', function() {
         filledInputs = 0;
-        $('.questions:visible').find('.text-input').each(function() {
+        $('.screen:visible').find('.text-input').each(function() {
             if ($(this).val().length >= 3) {
                 filledInputs++;
             }
         });
-        $('.questions:visible').find('.select-box, .radio-input:checked').each(function() {
+        $('.screen:visible').find('.select-box, .radio-input:checked').each(function() {
             filledInputs++;
         });
         updateProgressBar();

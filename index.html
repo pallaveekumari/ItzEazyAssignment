@@ -8,22 +8,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+    <div class="container">
 
-    <div class="questions" id="screen1">
-        <div class="question">
-            <label for="input1">Name</label>
-            <input type="text" id="input1" class="text-input" placeholder="Enter Your Name">
-        </div>
-        <div class="question">
-            <label>Nature of Driving License</label>
-            <div>
+        <div class="screen" id="screen1">
+            <div class="question">
+                <label for="input1">Name</label>
+                <input type="text" id="input1" class="text-input" placeholder="Enter Your Name">
+            </div>
+            <div class="question">
+                <label>Nature of Driving License</label>
+                <div class="radio-options">
                 <input type="radio" id="privateRadio1" name="radio1" class="radio-input">
                 <label for="privateRadio1">Private</label>
-            </div>
-            <div>
                 <input type="radio" id="commercialRadio1" name="radio1" class="radio-input">
                 <label for="commercialRadio1">Commercial</label>
             </div>
+           
         </div>
         <div class="question">
             <label for="select1">Issued Year of licence</label>
@@ -35,22 +35,21 @@
             </select>
         </div>
     </div>
-
-    <div class="questions" id="screen2" style="display: none;">
+    
+    <div class="screen" id="screen2" style="display: none;">
         <div class="question">
             <label for="input2">Place Where Driving License was issued</label>
             <input type="text" id="input2" class="text-input" placeholder="Enter Place Name">
         </div>
         <div class="question">
             <label>Type of Previous Driving License</label>
-            <div>
+            <div class="radio-options">
                 <input type="radio" id="privateRadio2" name="radio2" class="radio-input">
                 <label for="privateRadio2">Paper Driving License</label>
-            </div>
-            <div>
                 <input type="radio" id="commercialRadio2" name="radio2" class="radio-input">
                 <label for="commercialRadio2">Smart Driving License</label>
             </div>
+            
         </div>
         <div class="question">
             <label for="select2">Type of Previous Driving License</label>
@@ -62,9 +61,10 @@
             </select>
         </div>
     </div>
-
+    
+</div>
     <div class="progress-bar"></div>
-
+    
     <script src="index.js"></script>
 </body>
 </html>
